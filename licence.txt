@@ -1,5 +1,5 @@
-MIT License
-Copyright (c) 2021 (Mwangi Hannah Wambui)
+MIT Licence
+Copyright (c) 2021 Mwangi Hannah Wambui
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this website and associated documentation files (the "website"), to deal
 in the website without restriction, including without limitation the rights
