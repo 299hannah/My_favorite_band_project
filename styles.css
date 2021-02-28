@@ -1,0 +1,137 @@
+
+body{
+    font-family: Helvetica 'Franklin Gothic Medium',  sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    background-color: #f4f4f4;
+}
+header{
+    background:#35424a;
+    color: cyan;
+    padding-top: 30px;
+    min-height: 70px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header ul{
+    
+    margin:0;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+header a:hover {
+    color: rgb(172, 255, 49);
+    font-weight: 700;
+}
+header #brand{
+    float: left;
+}
+header #brand h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-bottom: 10px;
+}
+header .current a{
+    color: #b8fb31;
+    font-weight: bold;
+
+}
+#comments{
+    padding:10px;
+    color: #ffffff;
+    background: #35424a;
+  
+   
+}
+#comments h2{
+    float: left;
+}
+#comments form{
+    float: right;
+    margin-top: 15px;
+}
+#comments input[ type="comment"]{
+    padding:4px;
+    height:25px;
+    width: 250px;
+}
+.button_1{
+    height:38px;
+    background:brown;
+    border: dotted;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box h1{
+    margin-left: ;
+
+}
+#boxes .box img{
+    width: 300px;
+
+}
+#showcase .container img{
+    width: 1000px;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: chocolate;
+    display: inline;
+
+}
+#main-col{
+    float: left;
+    width: 65%;
+    margin-top: 0px;
+
+}
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: rgb(8, 59, 31);
+    text-align: center;
+    text-decoration: none;
+}
