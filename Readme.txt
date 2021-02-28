@@ -7,4 +7,6 @@ Technologies Used
  CSS
  Git
 ### Live Site
-View [live]https://github.com/299hannah/My_favorite_band_project.git
+View [live]https://github.com/299hannah/My_favorite_band_project
+Licence
+This project is under the MIT licence
