@@ -67,7 +67,7 @@ header .current a{
     float: right;
     margin-top: 15px;
 }
-#comments input[ type="comment"]{
+#comments input[ type="text"]{
     padding:4px;
     height:25px;
     width: 250px;
@@ -116,4 +116,31 @@ footer{
     background-color: rgb(8, 59, 31);
     text-align: center;
     text-decoration: none;
+}
+@media(max-width:765px){
+    header #brand
+    header nav,
+    header nav li
+    #comments h2,
+    #comments form
+    #boxes .box{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    header{
+        padding-bottom :20px;
+    }
+    #showcase h2{
+        margin-top: 40px;
+    }
+    #comments button{
+        display: block;
+        width:100%;
+    }
+    #comments form input [type="text"]{
+        width: 100%;
+        margin-bottom:5px;
+
+    }
 }
